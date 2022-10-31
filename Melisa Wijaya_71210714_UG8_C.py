@@ -46,15 +46,15 @@ class Kasir:
             self.resize(2)
             print()
             print("=== Kasir ===")
-            c = len(self.data)-1
-            n = 1
+            kapasitas = len(self.data)-1
+            nomer = 1
             for i in range(0, (self.capacity)):            
-                if i <= c:
-                    print(n,".",self.data[i], end=' ')
+                if i <= kapasitas:
+                    print(nomer,".",self.data[i], end=' ')
                     print()
                 else:
-                    print(n,". Kosong")
-                n += 1
+                    print(nomer,". Kosong")
+                nomer += 1
         
 
 # test case program
